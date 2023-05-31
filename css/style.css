@@ -21,12 +21,12 @@
     /* do le dimensioni di ogni blocco */
     flex-basis: 33.3%;
     padding: .5rem 1rem;
-    position: relative;
 }
 
 .product_card {
     background-color: grey;
     height: 400px;
+    position: relative;
 }
 
 .product_card img {
@@ -39,10 +39,35 @@
     line-height: 10px;
 }
 
+.sign {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 4px;
+
+}
+
+.green_flag {
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 4px;
+}
+
 .brand, 
 .title_product, 
 .price, 
-.old_price {
+.old_price,
+.discount,
+.green_flag {
     font-size: 10px;
 }
 
