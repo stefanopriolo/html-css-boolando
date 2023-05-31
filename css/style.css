@@ -5,6 +5,46 @@
     font-family: Arial, Helvetica, sans-serif;;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    background-color: #ff6900;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.logo {
+    display: flex;
+    
+
+}
+
+.logo img {
+    width: 100px;
+}
+
 .container {
     max-width: 920px;
     width: 100%;
@@ -35,6 +75,37 @@
     object-fit: cover;
 }
 
+.img1:hover {
+    content: url(/img/1b.webp);
+    
+}
+
+.img2:hover {
+    content: url(/img/2b.webp);
+    
+}
+
+.img3:hover {
+    content: url(/img/3b.webp);
+    
+}
+
+.img4:hover {
+    content: url(/img/4b.webp);
+    
+}
+
+.img5:hover {
+    content: url(/img/5b.webp);
+    
+}
+
+.img6:hover {
+    content: url(/img/6b.webp);
+    
+}
+
+
 .info_container {
     line-height: 10px;
 }
@@ -60,7 +131,8 @@
    display: inline-block;
    width: 30px;
    height: 30px;
-   background-color: white;
+   background-color: black;
+   color: black;
    padding: 5px;
 }
 
@@ -99,4 +171,34 @@
 
 .old_price {
     text-decoration: line-through;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footer_container {
+    background-color: #1a1a1a;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer h5, footer span {
+    color: white;
+}
+
+footer span {
+    font-size:10px ;
+}
+
+.contact {
+    text-align: center;
+    padding: 5px;
+    
 }
