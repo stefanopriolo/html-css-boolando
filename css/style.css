@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;;
 }
 
 .container {
@@ -20,6 +21,7 @@
     /* do le dimensioni di ogni blocco */
     flex-basis: 33.3%;
     padding: .5rem 1rem;
+    position: relative;
 }
 
 .product_card {
@@ -31,4 +33,24 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.info_container {
+    line-height: 10px;
+}
+
+.brand, 
+.title_product, 
+.price, 
+.old_price {
+    font-size: 10px;
+}
+
+.price {
+    color: red;
+
+}
+
+.old_price {
+    text-decoration: line-through;
 }
