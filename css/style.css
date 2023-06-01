@@ -12,6 +12,10 @@ header {
     z-index: 1;
 }
 
+main {
+    padding: 50px;
+}
+
 nav {
     background-color: #ff6900;
     padding: 10px;
@@ -174,10 +178,8 @@ nav ul a {
 }
 
 footer {
-    position: fixed;
     width: 100%;
     bottom: 0;
-    z-index: 1;
 }
 
 .footer_container {
